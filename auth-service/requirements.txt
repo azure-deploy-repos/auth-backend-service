@@ -1,0 +1,25 @@
+# Core Framework & Server
+fastapi[standard]
+uvicorn
+
+# Data Validation
+pydantic~=2.10.6
+
+# Database - Async PostgreSQL
+sqlalchemy[asyncio]
+asyncpg
+greenlet>=3.0.0
+
+# Environment Configuration
+python-dotenv
+
+# Optional Database Libraries
+databases
+psycopg2-binary
+
+# Authentication & Password Hashing
+bcrypt==3.2.2
+passlib==1.7.4
+
+# File Upload
+python-multipart
